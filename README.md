@@ -1,0 +1,5 @@
+# Turboswind
+
+SvelteKit
+Turborepo
+Tailwindcss

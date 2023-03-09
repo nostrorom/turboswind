@@ -1,0 +1,17 @@
+{
+  "name": "turboswind",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format:root": "prettier --write .",
+    "format": "turbo run format"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-svelte": "^2.7.0",
+    "turbo": "^1.8.3"
+  },
+  "packageManager": "pnpm@7.15.0"
+}
