@@ -17,22 +17,31 @@ importers:
       '@playwright/test': ^1.28.1
       '@sveltejs/adapter-auto': ^2.0.0
       '@sveltejs/kit': ^1.5.0
+      '@turboswind/eslint-config': workspace:*
+      '@turboswind/prettier': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.45.0
       '@typescript-eslint/parser': ^5.45.0
-      eslint-config-svelte: workspace:*
+      eslint: 8.28.0
+      prettier: ^2.7.1
+      prettier-plugin-svelte: ^2.7.0
       svelte: ^3.54.0
       svelte-check: ^3.0.1
       tslib: ^2.4.1
       typescript: ^4.9.3
       vite: ^4.0.0
       vitest: ^0.25.3
+    dependencies:
+      prettier-plugin-svelte: 2.9.0_jrsxveqmsx2uadbqiuq74wlc4u
     devDependencies:
       '@playwright/test': 1.31.2
       '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.11.0
       '@sveltejs/kit': 1.11.0_svelte@3.55.1+vite@4.1.4
+      '@turboswind/eslint-config': link:../../config/eslint-config
+      '@turboswind/prettier': link:../../config/prettier
       '@typescript-eslint/eslint-plugin': 5.54.1_opmyejho6ffbdnqlhocdhorzvi
       '@typescript-eslint/parser': 5.54.1_pku7h6lsbnh7tcsfjudlqd5qce
-      eslint-config-svelte: link:../../config/eslint-config-svelte
+      eslint: 8.28.0
+      prettier: 2.8.4
       svelte: 3.55.1
       svelte-check: 3.1.0_svelte@3.55.1
       tslib: 2.5.0
@@ -40,7 +49,7 @@ importers:
       vite: 4.1.4
       vitest: 0.25.8
 
-  config/eslint-config-svelte:
+  config/eslint-config:
     specifiers:
       '@typescript-eslint/eslint-plugin': ^5.27.0
       '@typescript-eslint/parser': ^5.27.0
@@ -55,6 +64,9 @@ importers:
       eslint-config-prettier: 8.7.0_eslint@8.28.0
       eslint-config-turbo: 0.0.9_eslint@8.28.0
       eslint-plugin-svelte3: 4.0.0_zl5wch5vo255wuylks3ryf7uge
+
+  config/prettier:
+    specifiers: {}
 
 packages:
 
@@ -1480,13 +1492,11 @@ packages:
     dependencies:
       prettier: 2.8.4
       svelte: 3.55.1
-    dev: true
 
   /prettier/2.8.4:
     resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
-    dev: true
 
   /punycode/2.3.0:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
@@ -1769,7 +1779,6 @@ packages:
   /svelte/3.55.1:
     resolution: {integrity: sha512-S+87/P0Ve67HxKkEV23iCdAh/SX1xiSfjF1HOglno/YTbSTW7RniICMCofWGdJJbdjw3S+0PfFb1JtGfTXE0oQ==}
     engines: {node: '>= 8'}
-    dev: true
 
   /text-table/0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
