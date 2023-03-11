@@ -19,6 +19,7 @@ importers:
       '@sveltejs/kit': ^1.11.0
       '@turboswind/eslint-config': workspace:*
       '@turboswind/prettier': workspace:*
+      '@turboswind/tsconfig': workspace:*
       svelte: ^3.56.0
       svelte-check: ^3.1.0
       tslib: ^2.5.0
@@ -31,6 +32,7 @@ importers:
       '@sveltejs/kit': 1.11.0_svelte@3.56.0+vite@4.1.4
       '@turboswind/eslint-config': link:../../config/eslint-config
       '@turboswind/prettier': link:../../config/prettier
+      '@turboswind/tsconfig': link:../../config/typescript
       svelte: 3.56.0
       svelte-check: 3.1.2_svelte@3.56.0
       tslib: 2.5.0
@@ -57,6 +59,9 @@ importers:
   config/prettier:
     specifiers: {}
 
+  config/typescript:
+    specifiers: {}
+
   packages/storybook:
     specifiers:
       '@playwright/test': ^1.31.2
@@ -72,6 +77,7 @@ importers:
       '@sveltejs/package': ^2.0.2
       '@turboswind/eslint-config': workspace:*
       '@turboswind/prettier': workspace:*
+      '@turboswind/tsconfig': workspace:*
       eslint-plugin-storybook: ^0.6.11
       publint: ^0.1.10
       react: 18.2.0
@@ -97,6 +103,7 @@ importers:
       '@sveltejs/package': 2.0.2_vppmst6voi6xyrvkbiks4rzetm
       '@turboswind/eslint-config': link:../../config/eslint-config
       '@turboswind/prettier': link:../../config/prettier
+      '@turboswind/tsconfig': link:../../config/typescript
       eslint-plugin-storybook: 0.6.11_cpjknapmhdflklfqmxgocjhnue
       publint: 0.1.10
       react: 18.2.0
