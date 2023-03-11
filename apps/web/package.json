@@ -10,8 +10,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test:unit": "vitest",
-		"lint": "prettier  --check . && eslint .",
-		"format": "prettier --write ."
+		"lint": "prettier --plugin-search-dir ../.. --check . && eslint .",
+		"format": "prettier --plugin-search-dir ../.. --write ."
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.31.2",
@@ -19,8 +19,6 @@
 		"@sveltejs/kit": "^1.11.0",
 		"@turboswind/eslint-config": "workspace:*",
 		"@turboswind/prettier": "workspace:*",
-		"@typescript-eslint/eslint-plugin": "^5.54.1",
-		"@typescript-eslint/parser": "^5.54.1",
 		"svelte": "^3.56.0",
 		"svelte-check": "^3.1.0",
 		"tslib": "^2.5.0",
@@ -28,10 +26,5 @@
 		"vite": "^4.1.4",
 		"vitest": "^0.29.2"
 	},
-	"type": "module",
-	"peerDependencies": {
-		"eslint": "8.34.0",
-		"prettier": "^2.8.4",
-		"prettier-plugin-svelte": "^2.7.0"
-	}
+	"type": "module"
 }
