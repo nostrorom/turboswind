@@ -6,8 +6,7 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "turbo run format",
-    "format:root": "prettier --write .",
-    "prepare": "husky install"
+    "format:root": "prettier --write ."
   },
   "devDependencies": {
     "husky": "^8.0.3",
