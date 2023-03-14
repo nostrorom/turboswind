@@ -1,0 +1,9 @@
+{
+  "name": "@turboswind/postcss",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.cjs",
+  "dependencies": {
+    "postcss": "^8.4.21"
+  }
+}

@@ -2,10 +2,10 @@
   "name": "turboswind",
   "private": true,
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "turbo run format",
+    "build": "FORCE_COLOR=1 turbo run build",
+    "dev": "FORCE_COLOR=1 turbo run dev",
+    "lint": "FORCE_COLOR=1 turbo run lint",
+    "format": "FORCE_COLOR=1 turbo run format",
     "format:root": "prettier --write .",
     "prepare": "husky install"
   },
