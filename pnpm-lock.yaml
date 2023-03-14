@@ -26,6 +26,7 @@ importers:
       '@sveltejs/adapter-auto': ^2.0.0
       '@sveltejs/kit': ^1.11.0
       '@turboswind/eslint-config': workspace:*
+      '@turboswind/playwright': workspace:*
       '@turboswind/postcss': workspace:*
       '@turboswind/prettier': workspace:*
       '@turboswind/tailwind': workspace:*
@@ -44,6 +45,7 @@ importers:
       '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.11.0
       '@sveltejs/kit': 1.11.0_svelte@3.56.0+vite@4.1.4
       '@turboswind/eslint-config': link:../../config/eslint-config
+      '@turboswind/playwright': link:../../config/playwright
       '@turboswind/postcss': link:../../config/postcss
       '@turboswind/prettier': link:../../config/prettier
       '@turboswind/tailwind': link:../../config/tailwind
