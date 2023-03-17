@@ -9,7 +9,8 @@
     "eslint": "8.36.0",
     "eslint-config-prettier": "^8.7.0",
     "eslint-config-turbo": "latest",
-    "eslint-plugin-svelte3": "^4.0.0"
+    "eslint-plugin-svelte3": "^4.0.0",
+    "typescript": "5.0.0-beta"
   },
   "publishConfig": {
     "access": "public"

@@ -1,0 +1,9 @@
+{
+  "name": "@turboswind/tailwind",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.cjs",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
