@@ -2,6 +2,7 @@
   "name": "turboswind",
   "private": true,
   "scripts": {
+    "preprate": "husky install",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
