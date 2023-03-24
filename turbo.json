@@ -5,11 +5,12 @@
       "dependsOn": ["^build"],
       "outputs": [".svelte-kit/**"]
     },
-    "lint": {},
-    "format": {},
     "dev": {
       "cache": false,
       "persistent": true
-    }
+    },
+    "lint": {},
+    "format": {},
+    "bump": {}
   }
 }
