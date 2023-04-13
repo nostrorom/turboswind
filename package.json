@@ -2,22 +2,21 @@
   "name": "turboswind",
   "private": true,
   "scripts": {
-    "preprate": "husky install",
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "turbo run format",
+    "prepare": "husky install",
+    "build": "FORCE_COLOR=1 turbo run build",
+    "dev": "FORCE_COLOR=1 turbo run dev",
+    "lint": "FORCE_COLOR=1 turbo run lint",
+    "format": "FORCE_COLOR=1 turbo run format",
     "format:root": "prettier --write .",
-    "bump": "ncu -u && turbo run bump"
+    "bump": "ncu -u && FORCE_COLOR=1 turbo run bump"
   },
   "devDependencies": {
+    "@turboswind/eslint-config": "workspace:*",
+    "@turboswind/prettier": "workspace:*",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.0",
     "prettier": "^2.8.7",
     "prettier-plugin-svelte": "^2.10.0",
-    "turbo": "^1.8.5",
-    "@turboswind/eslint-config": "workspace:*",
-    "@turboswind/prettier": "workspace:*"
+    "turbo": "^1.9.1"
   },
-  "packageManager": "pnpm@7.15.0"
+  "packageManager": "pnpm@8.2.0"
 }
